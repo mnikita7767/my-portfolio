@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nikita Manwani">
+    <meta name="description" content="Frontend Developer | Contact Info | Portfolio">
+    <meta name="keywords" content="Frontend Developer, Web Developer, HTML, CSS, JavaScript, Portfolio, Nikita Manwani">
+    <title>Nikita Manwani</title>
+    <link rel="icon" type="image/png" href="/assets/images/Favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="loader">
+        <h1 id="greeting"></h1>
+    </div>
+
+    <main class="profile-container">
+        <video autoplay loop muted playsinline class="profile-background-video">
+            <source src="assets/video/bg-video.webm" type="video/webm"/>
+            <source src="assets/video/bg-video.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="profile-sidebar">
+            <div class="sidebar-content">
+               
+                <div class="profile-header">
+                    <img src="assets/images/MyPhoto.webp" class="profile-image" alt="Profile Photo of Nikita Manwani" >
+                    <h1 class="profile-name">Nikita Manwani</h1>
+                </div>
+
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <i class="ri-menu-2-line"></i>
+                </label>
+
+                <div class="menu">
+                    <div class="contact-info">
+                        <div class="info-icon">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <div class="info-text">
+                            <h2 class="info-title">Email</h2>
+                            <address lang="en" class="info-value">
+                                <a  href="mailto:manwaninikita845@gmail.com" class="info-value" aria-label="Email Nikita Manwani">manwaninikita845@gmail.com</a>
+                            </address>                    
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="info-text">
+                            <h2 class="info-title">Phone</h2>
+                            <a href="tel:+918791XXXXXX" aria-label="Call Nikita Manwani" class="info-value">+91 879XXXXXXX</a>
+                        </div>
+                    </div> 
+
+                    <div class="contact-info">
+                        <div class="info-icon">
+                            <i class="ri-calendar-line"></i>
+                        </div>
+                        <div class="info-text">
+                            <h2 class="info-title">Birthday</h2>
+                            <p class="info-value">July 11, 2003</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-icon">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <div class="info-text">
+                            <h2 class="info-title">Location</h2>
+                            <p class="info-value">Agra, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-icon">
+                            <i class="ri-pushpin-line"></i>
+                        </div>
+                        <div class="info-text">
+                            <h2 class="info-title">Job Availability</h2>
+                            <p class="info-value">Open to Work</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nikitamanwani87" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
+                            <i class="ri-linkedin-box-fill" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mnikita7767/" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                            <i class="ri-instagram-line" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/mnikita7767" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
+                            <i class="ri-github-fill" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://x.com/NikitaManwani6" target="_blank" aria-label="X (Twitter)" rel="noopener noreferrer">
+                            <i class="ri-twitter-x-fill" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Main Part of the profile -->
+        <div class="profile-main">
+            <div class="main-content">
+                <!-- Radio Inputs for Navigation -->
+                <input type="radio" name="slider" id="about" checked>
+                <input type="radio" name="slider" id="qualification">
+                <input type="radio" name="slider" id="skills">
+                <input type="radio" name="slider" id="projects">
+                <input type="radio" name="slider" id="contact">
+
+                <nav class="navigation-list">
+                    <label for="about" class="about-label">
+                        <i class="ri-user-3-line"></i>
+                    </label>
+                    <label for="qualification" class="qualification-label">
+                        <i class="ri-graduation-cap-line"></i>
+                    </label>
+                    <label for="skills" class="skills-label">
+                        <i class="ri-computer-line"></i>
+                    </label>
+                    <label for="projects" class="projects-label">
+                        <i class="ri-folder-line"></i>
+                    </label>
+                    <label for="contact" class="contact-label">
+                        <i class="ri-mail-line"></i>
+                    </label>
+                </nav>
+                
+                <div class="main-content-inner">
+
+                    <div class="about-content">
+                        
+                        <div class="about-intro-card">
+                            <h2 class="about-title">About Me</h2>
+                            <p class="about-description">Hello, I’m Nikita Manwani, a passionate frontend developer with a focus on creating responsive, user-friendly websites with expertise in JavaScript, HTML, and CSS. I am Passionate about continuous learning and keeping up with the latest web development trends.</p>
+                        </div>    
+
+                        <div class= "about-content-cards">
+                            <div class="hobbies-card">
+                                <img class="about-card-img" src="assets/images/about-img1.webp" alt="about-me-image">
+                                <p class="about-card-para">I enjoy reading, journal writing, and dancing for creativity.</p>
+                            </div>
+                            <div class="experience-card">
+                                <img class="about-card-img" src="assets/images/about-img2.webp" alt="about-me-image">
+                                <p class="about-card-para">Worked as a Frontend Developer Intern at Pie Infocomm Pvt Ltd.</p>
+                            </div>
+                            <div class="events-card">
+                                <img class="about-card-img" src="assets/images/about-img3.webp" alt="about-me-image">
+                                <p class="about-card-para">Attended seminars on technology, innovation, and industry advancements.</p>
+                            </div>
+                            <div class="certification-card">
+                                <img class="about-card-img" src="assets/images/about-img4.webp" alt="about-me-image">
+                                <p class="about-card-para">Earned certification courses in computer science and technology.</p>
+                            </div>
+                        </div>
+                        <a href="assets/Nikita_Manwani_Resume.pdf" download="My_Resume.pdf" class="resume-button">
+                             Resume
+                            <div class="gradient-container">
+                            <div class="gradient"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="qualification-content">
+                        <h2 class="qualification-title">Qualification</h2>
+                        <div class="timeline">
+                            <!-- Timeline Item 1 -->
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3 class="school">Amity University Rajasthan</h3>
+                                    <span class="year">2022 — 2025</span>
+                                    <span class="course">Bachelor of Computer Applications (CGPA: 8.89)</sp>
+                                    <p class="course-description">During my BCA program, I gained expertise in programming, web development, database management, software engineering, networking, operating systems, data structures, and computer applications.</p>
+                                </div>
+                            </div>
+                
+                            <!-- Timeline Item 2 -->
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3 class="school">Milton Public School</h3>
+                                    <span style="display: block;" class="year">2020 — 2021</span>
+                                    <span class="course">HSC (Percentage: 89)</span>
+                                    <p class="course-description">In 12th grade, I focused on Commerce with Mathematics, developing strong analytical and problem-solving skills through subjects like Accountancy, Economics, Business Studies, and advanced Mathematics, which provided a solid understanding of financial systems and quantitative analysis.</p>
+                                </div>
+                            </div>
+                
+                            <!-- Timeline Item 3 -->
+                            <div class="timeline-item">
+                                <div class="timeline-content">
+                                    <h3 class="school">Milton Public School</h3>
+                                    <span class="year">2018 — 2019</span>
+                                    <span class="course" style="display: block;">SSC (Percentage: 85.4)</span>
+                                    <p class="course-description">In 10th grade, I studied a well-rounded curriculum covering core subjects such as Mathematics, Science, Social Studies, and Languages, which fostered foundational knowledge, critical thinking, and effective communication skills essential for academic and personal growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-content">
+                        <h2 class="skills-title">Skills</h2>
+                        <div class="skills-cards">
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img1.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img2.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img3.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img4.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img5.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img style="width: 120px;" src="assets/images/skill-img6.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img7.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img8.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img9.webp" alt="skills-img">
+                            </div>
+
+                            <div class="skill-card">
+                                <img src="assets/images/skill-img10.webp" alt="skills-img">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="projects-content">
+                        <h2 class="projects-title">Projects</h2>
+
+                        <div class="project-section">
+
+                            <div class="project-card">
+                              <img src="assets/images/project-img1.webp" alt="Prject-img" class="project-image">
+                              <div class="project-info">
+                                <h3 class="project-title">Data Dashboard</h3>
+                                <p class="project-description">A responsive data dashboard displaying real-time metrics, interactive charts, and visual insights for efficient data analysis and decision-making</p>
+                              </div>
+                            </div>
+
+                            <div class="project-card">
+                              <img src="assets/images/project-img2.webp" alt="Project-img" class="project-image">
+                              <div class="project-info">
+                                <h3 class="project-title">Chat Application</h3>
+                                <p class="project-description">A real-time messaging app with user authentication, chat rooms, and notifications, enabling seamless communication across devices.</p>
+                              </div>
+                            </div>
+
+                            <div class="project-card">
+                              <img src="assets/images/project-img3.webp" alt="Project-img" class="project-image">
+                              <div class="project-info">
+                                <h3 class="project-title">Marble Website</h3>
+                                <p class="project-description">An elegant marble-themed website showcasing stunning visuals and sleek design, offering a seamless browsing experience.</p>
+                              </div>
+                            </div>
+
+                            <div class="project-card">
+                                <img src="assets/images/project-img4.webp" alt="Project-img" class="project-image">
+                                <div class="project-info">
+                                  <h3 class="project-title">Elite Models</h3>
+                                  <p class="project-description">A professional model website displaying portfolios, booking options, and modeling services with a clean, polished layout</p>
+                                </div>
+                            </div>
+
+                            <div class="project-card">
+                                <img src="assets/images/project-img5.webp" alt="Project-img" class="project-image">
+                                <div class="project-info">
+                                  <h3 class="project-title">E-commerce</h3>
+                                  <p class="project-description">A dynamic e-commerce platform with product customization, cart functionality, secure checkout, and a user-friendly interface for shopping</p>
+                                </div>
+                            </div>
+
+                            <div class="project-card">
+                                <img src="assets/images/project-img6.webp" alt="Project-img" class="project-image">
+                                <div class="project-info">
+                                  <h3 class="project-title">Task Management</h3>
+                                  <p class="project-description">A user-friendly task management application for creating, organizing, and tracking tasks with deadlines, priorities, and progress updates.</p>
+                                </div>
+                            </div>
+
+                          </div>
+                          
+                    </div>
+
+                    <div class="contact-content">
+                        <h2 class="contact-title">Contact</h2>
+                        <form action="#" method="POST">
+                            <div class="input-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                            <button class="button">
+                                <div class="outline"></div>
+                                <div class="state state--default">
+                                  <div class="icon">
+                                    <svg
+                                      width="1em"
+                                      height="1em"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <g style="filter: url(#shadow)">
+                                        <path
+                                          d="M14.2199 21.63C13.0399 21.63 11.3699 20.8 10.0499 16.83L9.32988 14.67L7.16988 13.95C3.20988 12.63 2.37988 10.96 2.37988 9.78001C2.37988 8.61001 3.20988 6.93001 7.16988 5.60001L15.6599 2.77001C17.7799 2.06001 19.5499 2.27001 20.6399 3.35001C21.7299 4.43001 21.9399 6.21001 21.2299 8.33001L18.3999 16.82C17.0699 20.8 15.3999 21.63 14.2199 21.63ZM7.63988 7.03001C4.85988 7.96001 3.86988 9.06001 3.86988 9.78001C3.86988 10.5 4.85988 11.6 7.63988 12.52L10.1599 13.36C10.3799 13.43 10.5599 13.61 10.6299 13.83L11.4699 16.35C12.3899 19.13 13.4999 20.12 14.2199 20.12C14.9399 20.12 16.0399 19.13 16.9699 16.35L19.7999 7.86001C20.3099 6.32001 20.2199 5.06001 19.5699 4.41001C18.9199 3.76001 17.6599 3.68001 16.1299 4.19001L7.63988 7.03001Z"
+                                          fill="currentColor"
+                                        ></path>
+                                        <path
+                                          d="M10.11 14.4C9.92005 14.4 9.73005 14.33 9.58005 14.18C9.29005 13.89 9.29005 13.41 9.58005 13.12L13.16 9.53C13.45 9.24 13.93 9.24 14.22 9.53C14.51 9.82 14.51 10.3 14.22 10.59L10.64 14.18C10.5 14.33 10.3 14.4 10.11 14.4Z"
+                                          fill="currentColor"
+                                        ></path>
+                                      </g>
+                                      <defs>
+                                        <filter id="shadow">
+                                          <fedropshadow
+                                            dx="0"
+                                            dy="1"
+                                            stdDeviation="0.6"
+                                            flood-opacity="0.5"
+                                          ></fedropshadow>
+                                        </filter>
+                                      </defs>
+                                    </svg>
+                                  </div>
+                                  <p>
+                                    <span style="--i:0">S</span>
+                                    <span style="--i:1">e</span>
+                                    <span style="--i:2">n</span>
+                                    <span style="--i:3">d</span>
+                                    <span style="--i:4">M</span>
+                                    <span style="--i:5">e</span>
+                                    <span style="--i:6">s</span>
+                                    <span style="--i:7">s</span>
+                                    <span style="--i:8">a</span>
+                                    <span style="--i:9">g</span>
+                                    <span style="--i:10">e</span>
+                                  </p>
+                                </div>
+                                <div class="state state--sent">
+                                  <div class="icon">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      height="1em"
+                                      width="1em"
+                                      stroke-width="0.5px"
+                                      stroke="black"
+                                    >
+                                      <g style="filter: url(#shadow)">
+                                        <path
+                                          fill="currentColor"
+                                          d="M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z"
+                                        ></path>
+                                        <path
+                                          fill="currentColor"
+                                          d="M10.5795 15.5801C10.3795 15.5801 10.1895 15.5001 10.0495 15.3601L7.21945 12.5301C6.92945 12.2401 6.92945 11.7601 7.21945 11.4701C7.50945 11.1801 7.98945 11.1801 8.27945 11.4701L10.5795 13.7701L15.7195 8.6301C16.0095 8.3401 16.4895 8.3401 16.7795 8.6301C17.0695 8.9201 17.0695 9.4001 16.7795 9.6901L11.1095 15.3601C10.9695 15.5001 10.7795 15.5801 10.5795 15.5801Z"
+                                        ></path>
+                                      </g>
+                                    </svg>
+                                  </div>
+                                  <p>
+                                    <span style="--i:5">S</span>
+                                    <span style="--i:6">e</span>
+                                    <span style="--i:7">n</span>
+                                    <span style="--i:8">t</span>
+                                  </p>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>
