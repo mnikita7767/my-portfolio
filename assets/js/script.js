@@ -49,7 +49,3 @@ setTimeout(() => {
 }, greetings.length * 200); // Adjusted to match greeting duration
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const video = document.querySelector(".profile-background-video");
-    video.play().catch(error => console.log("Autoplay failed:", error));
-});
