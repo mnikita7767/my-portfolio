@@ -53,7 +53,6 @@ a {
 .glitch-effect {
   animation: glitch 0.1s infinite alternate;
 }
-
 .profile-container {
   color: #fff;
   display: flex;
@@ -85,7 +84,6 @@ a {
     opacity: 1;
   }
 }
-
 .profile-sidebar {
   height: 100%;
   width: 25%;
